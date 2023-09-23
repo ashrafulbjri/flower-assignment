@@ -9,6 +9,8 @@ body {
     height: 850px;
     flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
 }
 
 .banner-content {
@@ -43,4 +45,11 @@ body {
     color: #FFF;
     font-size: 20px;
     border: 0;
+}
+
+.profile-pic {
+    width: 635px;
+    height: 800px;
+    /* flex-shrink: 0; */
+    padding: 50px 240px 0 0;
 }
