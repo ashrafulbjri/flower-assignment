@@ -21,7 +21,7 @@ body {
 }
 
 .banner-title {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800px;
     color: #272727;
     margin-bottom: 0px;
@@ -50,6 +50,60 @@ body {
 .profile-pic {
     width: 635px;
     height: 800px;
-    /* flex-shrink: 0; */
     padding: 50px 240px 0 0;
 }
+
+
+
+
+
+
+/* Main Section */
+
+.banner1 {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner1-content {
+    align-items: center;
+    color: #272727;
+    width: 537px;
+    padding: 230px 215px 340px 425px;
+}
+
+.banner1-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 0px;
+    max-width: 600px;
+    /* text-align: center; */
+}
+
+.off {
+    color: #E55473;
+}
+
+.banner1-description {
+    max-width: 594px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+}
+
+.banner1-pic {
+    width: 318px;
+    height: 420px;
+    padding: 100px 430px 100px 0;
+}
+
+
+    
+    
+    
