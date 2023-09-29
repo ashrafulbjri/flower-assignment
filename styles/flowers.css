@@ -196,3 +196,37 @@ body {
     background: #FFF;
     border: 0;
 }
+
+.footer-section {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+
+.shop {
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    padding-left: 648px;
+}
+
+.footer-lastline {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
