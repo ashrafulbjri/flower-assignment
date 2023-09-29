@@ -105,12 +105,17 @@ body {
     padding: 100px 430px 100px 0;
 }
 
+.insta {
+    width: 1440px;
+    height: 132px;
+    flex-shrink: 0;
+}
+
 .section-title {
     font-size: 40px;
     font-weight: 800;
     color: #272727;
     text-align: center;
-    /* padding: 28px 870px 0px 870px; */
     margin: 128px 870px 24px 870px;
 }
 
@@ -119,7 +124,6 @@ body {
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    /* padding: 0px 670px 0px 670px; */
     width: 594px;
     margin: 0px 663px 48px 663px;
 }
@@ -132,19 +136,11 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0px 240px 128px 240px;
+    padding-bottom: 56px;
 }
 
 .photo {
-    /* width: 342px; */
-    /* height: 396px; */
-    /* flex-shrink: 0; */
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
-}
-
-.banner2 {
-    /* gap: 24px; */
-    /* padding: 28px 250px 128px 250px; */
-    /* justify-content: space-around; */
+    padding-top: 48px;
 }
 
 .get {
@@ -154,8 +150,6 @@ body {
     border-radius: 8px;
     background-image: url('../image/Rectangle\ 9.png');
     margin: 0px 240px 128px 240px;
-    /* padding: 0px 240px 128px 240px; */
-    /* lightgray 0px -203.444px / 100% 213.755% no-repeat; */
 }
 
 .banner3 {}
