@@ -2,6 +2,8 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    width: 1920;
+    height: 4865;
 }
 
 .banner {
@@ -108,23 +110,31 @@ body {
     font-weight: 800;
     color: #272727;
     text-align: center;
+    padding: 28px 870px 0px 870px;
 }
 
 .section-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    padding: 24px 670px 48px 670px;
-    /* max-width: 594px; */
+    padding: 0px 670px 0px 670px;
+    width: 594px;
+}
+
+.banner2 {
+    width: 1440px;
+    height: 450px;
+    flex-shrink: 0;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
 }
 
 .photo {
-    width: 342px;
-    height: 396px;
-    flex-shrink: 0;
+    /* width: 342px; */
+    /* height: 396px; */
+    /* flex-shrink: 0; */
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 
