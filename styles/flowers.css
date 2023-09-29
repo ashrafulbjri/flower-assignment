@@ -99,6 +99,12 @@ body {
     text-align: center;
 }
 
+#btn-center {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-left: 200px;
+}
+
 .banner1-pic {
     width: 318px;
     height: 420px;
