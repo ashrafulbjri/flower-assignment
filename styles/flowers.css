@@ -110,7 +110,8 @@ body {
     font-weight: 800;
     color: #272727;
     text-align: center;
-    padding: 28px 870px 0px 870px;
+    /* padding: 28px 870px 0px 870px; */
+    margin: 128px 870px 24px 870px;
 }
 
 .section-description {
@@ -118,17 +119,19 @@ body {
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    padding: 0px 670px 0px 670px;
+    /* padding: 0px 670px 0px 670px; */
     width: 594px;
+    margin: 0px 663px 48px 663px;
 }
 
 .banner2 {
     width: 1440px;
-    height: 450px;
+    height: 396px;
     flex-shrink: 0;
     background: #FFF;
     display: flex;
     justify-content: space-between;
+    margin: 0px 240px 128px 240px;
 }
 
 .photo {
@@ -139,8 +142,57 @@ body {
 }
 
 .banner2 {
+    /* gap: 24px; */
+    /* padding: 28px 250px 128px 250px; */
+    /* justify-content: space-around; */
+}
+
+.get {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url('../image/Rectangle\ 9.png');
+    margin: 0px 240px 128px 240px;
+    /* padding: 0px 240px 128px 240px; */
+    /* lightgray 0px -203.444px / 100% 213.755% no-repeat; */
+}
+
+.banner3 {}
+
+.section3-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    /* padding-bottom: 94px; */
+}
+
+#sec3-des {}
+
+.section3-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.banner4 {
     display: flex;
-    gap: 24px;
-    padding: 28px 250px 128px 250px;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.contact {
+    /* padding-bottom: 121px; */
+}
+
+.contact input[type="email"] {
+    font-size: 16px;
+    width: 600px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
 }
