@@ -127,18 +127,33 @@ body {
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
+    text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 130px 240px 32px 240px;
     /* gap: 25px; */
 }
 
-.im{
-    align-items: center;
+.im {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    padding-top: 85px;
+    /* align-items: center; */
 }
 
 .gt {
-    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(39, 39, 39, 0.80);
+    padding-left: 87px;
+    padding-right: 87px;
+}
+
+#ff {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
